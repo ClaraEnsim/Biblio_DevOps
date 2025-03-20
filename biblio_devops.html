@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque de Livres</title>
+    <link rel="stylesheet" href="biblio_devops.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans la Bibliothèque</h1>
+        <p>Si tes livres te questionnent, te préoccupent, te fascinent et que tu ne sais pas ou rédigez tout ça, 
+            utilise ta bibliothèque numérique</p>
+    </header>
+
+    <div class="book-list">
+        <div class="book" onclick="showDescription('book1')">
+            <h3>Le Petit Prince</h3>
+            <p>Auteur: Antoine de Saint-Exupéry</p>
+        </div>
+        <div class="book" onclick="showDescription('book2')">
+            <h3>1984</h3>
+            <p>Auteur: George Orwell</p>
+        </div>
+        <div class="book" onclick="showDescription('book3')">
+            <h3>Les Misérables</h3>
+            <p>Auteur: Victor Hugo</p>
+        </div>
+    </div>
+
+    <div id="book1" class="description">
+        <h3>Le Petit Prince</h3>
+        <p>Le Petit Prince est une œuvre poétique et philosophique d'Antoine de Saint-Exupéry, où un jeune prince d'une planète lointaine rencontre un aviateur en plein désert et lui raconte son voyage à travers l'univers.</p>
+    </div>
+    <div id="book2" class="description">
+        <h3>1984</h3>
+        <p>1984 est un roman dystopique de George Orwell qui raconte l’histoire de Winston Smith, un homme vivant sous la surveillance constante d’un gouvernement totalitaire dirigé par le Big Brother.</p>
+    </div>
+    <div id="book3" class="description">
+        <h3>Les Misérables</h3>
+        <p>Les Misérables, écrit par Victor Hugo, suit l’histoire de Jean Valjean, un ancien bagnard qui cherche à se racheter tout en luttant contre l’injustice et les inégalités sociales dans la France du XIXe siècle.</p>
+    </div>
+
+    <script src="biblio_devops.js"></script>
+</body>
+</html>
